@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Building clean, scalable web apps using JavaScript, React, and Next — focused on real-world problem solving.",
   summary:
-    "I'm a B.Sc.IT graduate  with a strong passion for web development. I enjoy building interactive and scalable applications using React, Node.js, and exploring Web3 technologies like Solana. Always curious and driven, [I'm focused on learning by doing and turning ideas into functional digital solutions.](/#education).",
+    "I'm passionate about web development and love building interactive, scalable applications using React and Node.js. I'm also exploring Web3 technologies like Solana. Driven by curiosity and a hands-on mindset, I enjoy turning ideas into real, functional digital experiences.",
   avatarUrl: "/profile.jpg",
   skills: [
     "React",
