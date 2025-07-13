@@ -8,15 +8,16 @@ export const DATA = {
   location: "India, Mumbai",
   locationLink: "",
   description:
-    "Building clean, scalable web apps using JavaScript, React, and Next — focused on real-world problem solving.",
+    "Building clean, scalable web apps using Typescript, React, and Next — focused on real-world problem solving.",
   summary:
-    "I'm passionate about web development and love building interactive, scalable applications using React and Node.js. I'm also exploring Web3 technologies like Solana. Driven by curiosity and a hands-on mindset, I enjoy turning ideas into real, functional digital experiences.",
+    "I'm passionate about building interactive, scalable digital experiences using tools like React and Node.js. With a curiosity-driven, hands-on mindset, I love turning ideas into functional products. I'm also exploring emerging technologies like Solana and Web3, constantly expanding my skills to create innovative, real-world solutions.",
   avatarUrl: "/profile.jpg",
   skills: [
     "React",
     "Next.js",
     "docker",
     "Typescript",
+    "Python",
     "Node.js",
     "Postgres",
     "MongoDB",
