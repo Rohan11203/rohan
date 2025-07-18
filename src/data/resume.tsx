@@ -102,7 +102,7 @@ export const DATA = {
       dates: "April 2025 - May 2025",
       active: true,
       description:
-        "A web application that lets users paste a YouTube link, select a start/end time, and either download the clipped segment or get an [AI-generated explanation]() of its content.",
+        "SmartClip is a powerful SaaS platform designed for content creators, researchers, marketing professionals, and educators. Our service allows you to move beyond simple viewing by providing the tools to precisely clip the moments you need and get instant AI-generated explanations.",
       technologies: [
         "React",
         "Typescript",
