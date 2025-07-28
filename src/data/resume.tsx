@@ -98,8 +98,8 @@ export const DATA = {
   projects: [
     {
       title: "Smart Clip",
-      href: "https://smartclip-ai1.onrender.com/",
-      dates: "April 2025 - May 2025",
+      href: "https://smartclip-chi.vercel.app/",
+      dates: "April 2025",
       active: true,
       description:
         "SmartClip is a powerful SaaS platform designed for content creators, researchers, marketing professionals, and educators. Our service allows you to move beyond simple viewing by providing the tools to precisely clip the moments you need and get instant AI-generated explanations.",
@@ -119,7 +119,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://smartclip-ai1.onrender.com/",
+          href: "https://smartclip-chi.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
@@ -129,7 +129,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "/smartClip.mp4",
+      video: "/smartclipVid.mp4",
     },
     {
       title: "CodeArena",
