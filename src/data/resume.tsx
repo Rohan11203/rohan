@@ -162,7 +162,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "/codeArena.mp4",
+      video: "/codeArena2.mp4",
     },
     {
       title: "SamyCraft",
@@ -194,52 +194,6 @@ export const DATA = {
       video: "/samycraft.mp4",
     },
     {
-      title: "chat-space",
-      href: "https://chatspace-cktr.onrender.com/",
-      dates: "Jan 2025",
-      active: true,
-      description:
-        "chat app where users join rooms and chat in real-time via WebSockets—perfect for quick, one-off conversations.",
-      technologies: ["React", "Websocket", "Typescript", "TailwindCSS"],
-      links: [
-        {
-          type: "Website",
-          href: "https://chatspace-cktr.onrender.com/chat",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/Rohan11203/chat-space",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "/chat-space.mp4",
-    },
-    {
-      title: "Tower Of SoL",
-      href: "https://tower-of-sol.vercel.app/",
-      dates: "Aug 2024",
-      active: true,
-      description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
-      technologies: ["React", "Solana", "Javascript", "TailwindCSS"],
-      links: [
-        {
-          type: "Website",
-          href: "https://tower-of-sol.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/Rohan11203/TowerOfSol",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "/towerOfsol.mp4",
-    },
-    {
       title: "QurRux",
       href: "https://qurrux.onrender.com/",
       dates: "Feb 2025 ",
@@ -268,8 +222,71 @@ export const DATA = {
       image: "",
       video: "/qurRux.mp4",
     },
+    {
+      title: "Tower Of SoL",
+      href: "https://tower-of-sol.vercel.app/",
+      dates: "Aug 2024",
+      active: true,
+      description:
+        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
+      technologies: ["React", "Solana", "Javascript", "TailwindCSS"],
+      links: [
+        {
+          type: "Website",
+          href: "https://tower-of-sol.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Rohan11203/TowerOfSol",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "/towerOfsol.mp4",
+    },
+    {
+      title: "chat-space",
+      href: "https://chatspace-cktr.onrender.com/",
+      dates: "Jan 2025",
+      active: true,
+      description:
+        "chat app where users join rooms and chat in real-time via WebSockets—perfect for quick, one-off conversations.",
+      technologies: ["React", "Websocket", "Typescript", "TailwindCSS"],
+      links: [
+        {
+          type: "Website",
+          href: "https://chatspace-cktr.onrender.com/chat",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Rohan11203/chat-space",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "/chat-space.mp4",
+    },
   ],
   hackathons: [
+    {
+      title: "Enhancing SmartClip: A 48-Hour Journey of Learning & Optimization",
+      dates: "July 20th , 2025",
+      location: "",
+      description:
+        "Over the past two days, I’ve been deep in the code, working to make my platform, SmartClip, even better. It’s been a fantastic learning experience as I tackled some key challenges in deployment, performance, and user experience...",
+      image: "/Blog3.png",
+      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2017/white.svg",
+      links: [
+        {
+          title: "Read",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://medium.com/@rohanshikhare410/enhancing-smartclip-a-48-hour-journey-of-learning-optimization-9480cc53cacf",
+        },
+      ],
+    },
+
     {
       title: "Hydration in Next.js",
       dates: "June 12th , 2025",
