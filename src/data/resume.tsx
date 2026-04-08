@@ -97,6 +97,36 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Lumina",
+      href: "https://lumina-lac.vercel.app/",
+      dates: "January 2026",
+      active: true,
+      description:
+        "This project showcases the next generation of Solana user experience. By integrating LazorKit, we eliminate two of the biggest hurdles for new users: Seed Phrases: Replaced by device-native Passkeys (FaceID/TouchID/Windows Hello). Gas Fees: Sponsored by a Paymaster for completely gasless transactions.",
+      technologies: [
+        "React",
+        "Typescript",
+        "TailwindCSS",
+        "Solana",
+        "LazorKit SDK",
+        "Framer Motion",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://lumina-lac.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Rohan11203/Lumina",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "/luminaVid.mp4",
+    },
+    {
       title: "Smart Clip",
       href: "https://smartclip-chi.vercel.app/",
       dates: "April 2025",
