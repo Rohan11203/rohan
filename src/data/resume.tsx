@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Building clean, scalable web apps using Typescript, React, and Next — focused on real-world problem solving.",
   summary:
-    "I'm passionate about building interactive, scalable digital experiences using tools like React and Node.js. With a curiosity-driven, hands-on mindset, I love turning ideas into functional products. I'm also exploring emerging technologies like Solana and Web3, constantly expanding my skills to create innovative, real-world solutions.",
+    "Software engineer with experience developing scalable web applications using React, Node.js, and TypeScript. Currently expanding into systems programming, computer architecture, and low-level software development to build a deeper understanding of how modern computers and software operate. Passionate about continuous learning, problem solving, and creating efficient, high-quality software.",
   avatarUrl: "/profile.jpg",
   skills: [
     "React",
@@ -71,6 +71,22 @@ export const DATA = {
   },
 
   work: [
+    {
+      company: "OceanLab Technologies",
+      href: "",
+      badges: [],
+      location: "Remote",
+      title: "Full Stack Developer",
+      logoUrl: "/oceanlabs_logo.jpg",
+      start: "Oct 2025",
+      description: [
+        "Developed production web apps across hospitality, SaaS, and healthcare using React, Next.js, TypeScript, and AWS.",
+        "Vacation Rental Platform: Built booking features with React, Supabase, and Stripe payments.",
+        "Job Matching Platform: Built backends with AWS Cognito, RDS Aurora, and EC2 deployments via CI/CD.",
+        "SaaS Platform: Implemented subscription billing, plan management, and role-based access control in Next.js.",
+        "Health Tracking Platform: Built features for logging and visualizing cycle data with a responsive frontend.",
+      ],
+    },
     {
       company: "Freelance",
       href: "",

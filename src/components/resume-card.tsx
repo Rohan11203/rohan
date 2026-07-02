@@ -17,7 +17,7 @@ interface ResumeCardProps {
   href?: string;
   badges?: readonly string[];
   period: string;
-  description?: string;
+  description?: string | readonly string[];
 }
 export const ResumeCard = ({
   logoUrl,
@@ -100,7 +100,18 @@ export const ResumeCard = ({
               }}
               className="mt-2 text-xs sm:text-sm"
             >
-              {description}
+              {Array.isArray(description) ? (
+                <ul className="ml-1 flex flex-col gap-1.5">
+                  {description.map((item, index) => (
+                    <li key={index} className="flex gap-2 leading-relaxed">
+                      <span className="mt-[0.45rem] size-1 shrink-0 rounded-full bg-foreground/50" />
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              ) : (
+                description
+              )}
             </motion.div>
           )}
         </div>
